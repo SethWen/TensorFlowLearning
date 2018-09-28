@@ -123,7 +123,6 @@ def plot_image(i, predictions_array, true_label, img):
         color = 'blue'
     else:
         color = 'red'
-
     plt.xlabel("{} {:2.0f}% ({})".format(class_names[predicted_label],
                                          100 * np.max(predictions_array),
                                          class_names[true_label]),
