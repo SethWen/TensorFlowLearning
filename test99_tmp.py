@@ -5,8 +5,10 @@
     update: Shawn 18-9-28 下午5:32      
 """
 
-import matplotlib.pyplot as plt
-from scipy import misc
+# import matplotlib.pyplot as plt
+# from scipy import misc
+#
+# im = misc.imread("./zidan.jpg")
+# plt.imshow(im, cmap=plt.cm.gray)
 
-im = misc.imread("./zidan.jpg")
-plt.imshow(im, cmap=plt.cm.gray)
+
